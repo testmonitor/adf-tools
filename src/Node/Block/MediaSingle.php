@@ -31,9 +31,9 @@ class MediaSingle extends BlockNode implements JsonSerializable
         Media::class,
     ];
     private string $layout;
-    private ?int $width;
+    private ?float $width;
 
-    public function __construct(string $layout, ?int $width = null, ?BlockNode $parent = null)
+    public function __construct(string $layout, ?float $width = null, ?BlockNode $parent = null)
     {
         if (!\in_array($layout, [
             self::LAYOUT_WRAP_LEFT,
