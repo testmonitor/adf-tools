@@ -1,6 +1,6 @@
 {
-  "name": "damienharper/adf-tools",
-  "description": "Atlassian Document Format PHP Tools",
+  "name": "testmonitor/adf-tools",
+  "description": "Atlassian Document Format PHP Tools (forked)",
   "minimum-stability": "stable",
   "keywords": ["atlassian", "adf"],
   "license": "MIT",
@@ -33,7 +33,6 @@
     "csfixer": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --using-cache=no --verbose --ansi",
     "cs-check": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --using-cache=no --verbose --ansi --dry-run",
     "phpstan": "tools/phpstan/vendor/bin/phpstan --ansi analyse src",
-    "rector": "tools/rector/vendor/bin/rector process src",
     "update-tools": "composer update --working-dir=tools/php-cs-fixer ; composer update --working-dir=tools/phpstan ; composer update --working-dir=tools/rector"
   },
   "config": {
