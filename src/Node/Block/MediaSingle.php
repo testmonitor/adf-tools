@@ -77,7 +77,7 @@ class MediaSingle extends BlockNode implements JsonSerializable
         return $this->layout;
     }
 
-    public function getWidth(): ?int
+    public function getWidth(): ?float
     {
         return $this->width;
     }
