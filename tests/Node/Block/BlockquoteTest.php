@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace DH\Adf\Tests\Node\Block;
 
 use DH\Adf\Node\Block\Blockquote;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class BlockquoteTest extends TestCase
 {
     public function testEmptyBlockquote(): void

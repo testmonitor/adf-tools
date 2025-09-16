@@ -6,13 +6,13 @@ namespace DH\Adf\Tests\Node\Inline;
 
 use DH\Adf\Node\Inline\Status;
 use InvalidArgumentException;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class StatusTest extends TestCase
 {
     public function testInvalidArgument(): void

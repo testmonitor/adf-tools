@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace DH\Adf\Tests\Node\Mark;
 
 use DH\Adf\Node\Mark\Subsup;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class SubsupTest extends TestCase
 {
     public function testSub(): void

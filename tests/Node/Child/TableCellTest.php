@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace DH\Adf\Tests\Node\Child;
 
 use DH\Adf\Node\Child\TableCell;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class TableCellTest extends TestCase
 {
     public function testEmptyTableCell(): void

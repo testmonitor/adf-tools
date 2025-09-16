@@ -6,13 +6,13 @@ namespace DH\Adf\Tests\Exporter\Html\Block;
 
 use DH\Adf\Exporter\Html\Block\BlockquoteExporter;
 use DH\Adf\Node\Block\Blockquote;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class BlockquoteExporterTest extends TestCase
 {
     public function testEmptyBlockquote(): void

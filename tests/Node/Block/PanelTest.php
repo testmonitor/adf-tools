@@ -6,13 +6,13 @@ namespace DH\Adf\Tests\Node\Block;
 
 use DH\Adf\Node\Block\Panel;
 use InvalidArgumentException;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class PanelTest extends TestCase
 {
     public function testInvalidPanelType(): void
