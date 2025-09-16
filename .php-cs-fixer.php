@@ -27,6 +27,7 @@ $config
         'list_syntax' => ['syntax' => 'short'],
         'mb_str_functions' => true,
         'method_chaining_indentation' => true,
+        'native_function_invocation' => false,
         'nullable_type_declaration_for_default_null_value' => true,
         'ordered_interfaces' => true,
         'ordered_traits' => false,
