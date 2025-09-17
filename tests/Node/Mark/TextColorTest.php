@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace DH\Adf\Tests\Node\Mark;
 
 use DH\Adf\Node\Mark\TextColor;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class TextColorTest extends TestCase
 {
     public function testTextColor(): void

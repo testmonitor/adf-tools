@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace DH\Adf\Tests\Node\Block;
 
 use DH\Adf\Node\Block\CodeBlock;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class CodeBlockTest extends TestCase
 {
     public function testCodeblockWithLanguage(): void

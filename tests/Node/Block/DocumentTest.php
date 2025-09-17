@@ -10,13 +10,13 @@ use DH\Adf\Node\Block\Panel;
 use DH\Adf\Node\Block\Table;
 use DH\Adf\Node\Child\Media;
 use DH\Adf\Node\Inline\Mention;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class DocumentTest extends TestCase
 {
     public function testEmptyDocument(): void

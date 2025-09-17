@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace DH\Adf\Tests\Node\Inline;
 
 use DH\Adf\Node\Inline\Hardbreak;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class HardbreakTest extends TestCase
 {
     public function testHardbreak(): void

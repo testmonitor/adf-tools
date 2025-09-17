@@ -7,13 +7,13 @@ namespace DH\Adf\Tests\Node\Inline;
 use DH\Adf\Node\Inline\Text;
 use DH\Adf\Node\Mark\Em;
 use DH\Adf\Node\Mark\Strike;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class TextTest extends TestCase
 {
     public function testSupportsASingleMark(): void

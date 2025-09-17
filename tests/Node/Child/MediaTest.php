@@ -6,13 +6,13 @@ namespace DH\Adf\Tests\Node\Child;
 
 use DH\Adf\Node\Child\Media;
 use InvalidArgumentException;
+use PHPUnit\Framework\Attributes\Small;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @small
  */
+#[Small]
 final class MediaTest extends TestCase
 {
     public function testInvalidArgument(): void
