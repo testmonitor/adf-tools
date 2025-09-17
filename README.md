@@ -4,6 +4,8 @@ Atlassian Document Format PHP Tools
 
 This is a fork of Damien Harper's [adf-tools] (https://github.com/DamienHarper/adf-tools) with a couple of updates:
 
+- [Requires PHP 8.2 or newer](https://github.com/testmonitor/adf-tools/pull/8)
+- [PHPUnit 11 support](https://github.com/testmonitor/adf-tools/pull/6)
 - [Ignore unknown node types](https://github.com/testmonitor/adf-tools/pull/3): discards unknown or unsupported node types.
 - [Replaced image width type with float](https://github.com/testmonitor/adf-tools/pull/1): prevents exceptions when dealing with rescaled images.
 
